@@ -1,0 +1,110 @@
+[
+  {
+    "id": "FEED-001",
+    "title": "Search not returning results",
+    "description": "Users see a blank screen when searching for profile names.",
+    "type": "bug",
+    "created_at": "2024-12-15",
+    "created_by": "customer_support",
+    "priority": null
+  },
+  {
+    "id": "FEED-002",
+    "title": "Add dark mode",
+    "description": "Many users have requested a dark mode for better night-time usability.",
+    "type": "feature",
+    "created_at": "2024-12-16",
+    "created_by": "product_team",
+    "priority": "low"
+  },
+  {
+    "id": "FEED-003",
+    "title": "Slow dashboard loading",
+    "description": "Analytics dashboard takes over 25 seconds to load during peak hours, causing frustration for finance teams.",
+    "type": "bug",
+    "created_at": "2024-12-17",
+    "created_by": "customer_support",
+    "priority": null
+  },
+  {
+    "id": "FEED-004",
+    "title": "Support for SSO with Azure AD",
+    "description": "Enterprise clients are requesting Azure AD SSO support to streamline user management.",
+    "type": "feature",
+    "created_at": "2024-12-18",
+    "created_by": "sales_team",
+    "priority": "medium"
+  },
+  {
+    "id": "FEED-005",
+    "title": "Export to CSV failing",
+    "description": "CSV export sometimes generates corrupted files when exporting more than 10k rows.",
+    "type": "bug",
+    "created_at": "2024-12-19",
+    "created_by": "customer_support",
+    "priority": "high"
+  },
+  {
+    "id": "FEED-006",
+    "title": "Improve mobile accessibility",
+    "description": "Customers want larger tap areas and better navigation on mobile devices.",
+    "type": "feature",
+    "created_at": "2024-12-20",
+    "created_by": "product_team",
+    "priority": "medium"
+  },
+  {
+    "id": "FEED-007",
+    "title": "Notifications arriving late",
+    "description": "Push notifications for approvals and comments arrive 15–20 minutes after the event.",
+    "type": "bug",
+    "created_at": "2024-12-20",
+    "created_by": "engineering_team",
+    "priority": null
+  },
+  {
+    "id": "FEED-008",
+    "title": "Request for Jira integration",
+    "description": "Several teams want the ability to push tasks directly into Jira from our workflow dashboard.",
+    "type": "feature",
+    "created_at": "2024-12-22",
+    "created_by": "sales_team",
+    "priority": "medium"
+  },
+  {
+    "id": "FEED-009",
+    "title": "Confusing onboarding flow",
+    "description": "New users find steps unclear when setting up their first project; too many forms and unclear CTAs.",
+    "type": "ux_issue",
+    "created_at": "2024-12-23",
+    "created_by": "product_team",
+    "priority": null
+  },
+  {
+    "id": "FEED-010",
+    "title": "Duplicate contacts appearing",
+    "description": "CRM sync is generating duplicate entries when the same contact exists with multiple emails.",
+    "type": "bug",
+    "created_at": "2024-12-23",
+    "created_by": "customer_support",
+    "priority": "high"
+  },
+  {
+    "id": "FEED-011",
+    "title": "Add audit logs",
+    "description": "Customers in regulated industries are requesting audit logs to track changes to key data fields.",
+    "type": "feature",
+    "created_at": "2024-12-24",
+    "created_by": "sales_team",
+    "priority": "high"
+  },
+  {
+    "id": "FEED-012",
+    "title": "Keyboard shortcuts request",
+    "description": "Power users want shortcuts for switching views and creating tasks faster.",
+    "type": "feature",
+    "created_at": "2024-12-25",
+    "created_by": "customer_feedback_portal",
+    "priority": "low"
+  }
+]
