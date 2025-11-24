@@ -1,10 +1,12 @@
-# BacklogAnalyser
-Tool that helps Product Managers analyse JIRA tickets in the backlog.
+# Donna
+Your partner in planning
 
 ## Personal Story
 As my project at work grew, I found tickets in the backlog EPIC increasing some even leading to 1.5 years old. Such large time delay also causes context loss and forces the PM/BA to open individual ticket and note priority. 
 
 Here comes BacklogAnalyser that analyses the tickets and classifies them into similar categories for effective decision making.
+
+> For Presentation slides visit [here](https://app.chroniclehq.com/share/1e19de00-66b3-4210-8406-c32eca0229c0/16141e12-3320-4504-af1a-bbfe11acc8d7/intro)
 
 ## Tech Stack
 - Python
