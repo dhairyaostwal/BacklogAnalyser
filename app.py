@@ -1,16 +1,13 @@
+from src.gpt_usage import classify_tickets, prioritize_tickets
 from src.preprocess import load_data, preprocess_items
-from src.embed import embed_texts
-from src.cluster import cluster_embeddings
 
 backlog_tickets = load_data("data/mock_jira_response.json")
 backlog_tickets = preprocess_items(backlog_tickets)
 
-ticket_embeddings = []
-for ticket in backlog_tickets:
-    # Embed each ticket's clean text
-    ticket_embeddings.append(embed_texts(ticket['clean_text']))
+classified_tickets = classify_tickets(backlog_tickets)
+print(f"Classified Tickets = {classified_tickets}")
 
-classified_labels = cluster_embeddings(ticket_embeddings)
+priority_request = "I'd want to resolve all performance and reliability issues before the next release."
 
-for item, label in zip(backlog_tickets, classified_labels):
-    print(f"Category {label}: " + item["clean_text"])
+prioritized_tickets = prioritize_tickets(classified_tickets, priority_request)
+print(f"Priority Order = {prioritized_tickets}")
